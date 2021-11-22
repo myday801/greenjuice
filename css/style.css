@@ -341,8 +341,75 @@ body {
     display: block;
     width: 46rem;
     height: 10rem;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.sw-cs {}
+
+.sw-cs a {
+    display: block;
+    height: 100%;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.cs-icon {
+    display: block;
+    width: 3.5rem;
+    height: 4rem;
+    margin: 0 auto;
+    background: url('../images/ico_sprite_pc.png') no-repeat;
     overflow: hidden;
-    background: #8fcb64;
+    margin: 1.5rem auto;
+}
+
+.cs-icon-1 {
+    background-position: -1.5rem -8.5rem;
+}
+
+.cs-icon-2 {
+    background-position: -7rem -8.5rem;
+}
+
+.cs-icon-3 {
+    width: 4rem;
+    background-position: -12.1rem -8.5rem;
+}
+
+.cs-icon-4 {
+    width: 4rem;
+    background-position: -17.5rem -8.5rem;
+}
+
+.cs-icon-5 {
+    background-position: -57.1rem -8.5rem;
+}
+
+.cs-icon-6 {
+    width: 4.5rem;
+    background-position: -62rem -8.5rem;
+}
+
+.sw-cs-pg {
+    top: -1rem;
+    right: 0;
+}
+
+.sw-cs-pg .swiper-pagination-bullet {
+    background:#ddd !important;
+    opacity: 1.0 !important;
+    margin: 0 0.3rem !important;
+}
+
+.sw-cs-pg .swiper-pagination-bullet-active {
+    background: #47ad1a !important;
 }
 
 .customer-login {
